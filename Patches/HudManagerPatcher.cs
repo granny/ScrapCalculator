@@ -22,7 +22,12 @@ namespace ScrapCalculator.Patches
         [HarmonyPatch(typeof(HUDManager), nameof(HUDManager.UpdateScanNodes))]
         private static void OnScan(HUDManager __instance, PlayerControllerB playerScript)
         {
-            if (StartOfRound.Instance.inShipPhase && GameNetworkManager.Instance.localPlayerController.isInHangarShipRoom)
+            if (GameNetworkManager.Instance.localPlayerController == null)
+            {
+                return; // only run if player exists
+            }
+
+            if (!StartOfRound.Instance.inShipPhase && !GameNetworkManager.Instance.localPlayerController.isInHangarShipRoom)
             {
                 return; // only run when in the ship
             }
