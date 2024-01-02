@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>ScrapCalculator</AssemblyName>
     <Description>Highlights bare minimum scrap required to complete quota</Description>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -23,16 +23,16 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>/home/granny/.steam/debian-installation/steamapps/common/Lethal Company/Lethal Company_Data/Managed/Assembly-CSharp-Publicized.dll</HintPath> <!-- Edit this to the actual location -->
+      <HintPath>/mnt/sda3/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data/Managed/Assembly-CSharp-Publicized.dll</HintPath> <!-- Edit this to the actual location -->
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>/home/granny/.steam/debian-installation/steamapps/common/Lethal Company/Lethal Company_Data/Managed/UnityEngine.dll</HintPath> <!-- Edit this to the actual location -->
+      <HintPath>/mnt/sda3/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data/Managed/UnityEngine.dll</HintPath> <!-- Edit this to the actual location -->
     </Reference>
     <Reference Include="Unity.Netcode.Runtime">
-      <HintPath>/home/granny/.steam/debian-installation/steamapps/common/Lethal Company/Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll</HintPath> <!-- Edit this to the actual location -->
+      <HintPath>/mnt/sda3/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll</HintPath> <!-- Edit this to the actual location -->
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/home/granny/.steam/debian-installation/steamapps/common/Lethal Company/Lethal Company_Data/Managed/Unity.TextMeshPro.dll</HintPath> <!-- Edit this to the actual location -->
+      <HintPath>/mnt/sda3/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data/Managed/Unity.TextMeshPro.dll</HintPath> <!-- Edit this to the actual location -->
     </Reference>
   </ItemGroup>
 </Project>

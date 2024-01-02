@@ -43,7 +43,7 @@ namespace ScrapCalculator.Patches
                 .OrderByDescending(pair => pair.Value.scrapValue)
                 .ToList();
 
-            int quota = TimeOfDay.Instance.profitQuota;
+            int quota = TimeOfDay.Instance.profitQuota - TimeOfDay.Instance.quotaFulfilled;
             for (var i = 0; i < scraps.Count;)
             {
                 var scrap = scraps[i];

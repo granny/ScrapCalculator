@@ -1,6 +1,6 @@
 {
   "name": "ScrapCalculator",
-  "version_number": "1.0.1",
+  "version_number": "1.1.0",
   "website_url": "https://github.com/granny/ScrapCalculator",
   "description": "Highlights bare minimum scrap required to complete quota.",
   "dependencies": [
